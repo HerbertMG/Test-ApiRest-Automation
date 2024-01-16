@@ -130,6 +130,6 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 ## 📄 Generación de informes
 
 El informe al detalle con los pasos y resultados de las pruebas se registrará después de la ejecución en la ruta:
-`Restful-Booker-Automation/target/karate-reports/karate-summary.html`.
+`RestApiAutomation/target/karate-reports/karate-summary.html`.
 
 ***
