@@ -1,4 +1,4 @@
-# AUTOMATIZACIÓN DE PRUEBAS A RESTFUL-BOOKING API - Karate Framework
+# AUTOMATIZACIÓN DE PRUEBAS A RestExample- DUMMY API - Karate Framework
 
 Este es un proyecto de Automatización que utiliza KARATE Framework
 para la creación de un script de automatización que permita probar la
