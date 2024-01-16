@@ -122,7 +122,7 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 
 4. Ejecutar las pruebas en el proyecto
 
-* Ir a las clase de la carpeta **TestSuiteRunner.java** `src/test/java/TestSuiteRunner.java` y ejecutar
+* Ir a las clase de la carpeta **TestSuiteRunner.java** `src\test\java\TestSuiteRunner.java` y ejecutar
   el Runner.
 
 ***
