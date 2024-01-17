@@ -7,9 +7,9 @@ API [DUMMY - RestExample](https://dummy.restapiexample.com/api/v1)
 Este proyecto ha sido desarrollado por [Herbert Melendez](https://www.linkedin.com/in/herb-me-ga/) para mejorar en el
 desarrollo en pruebas avanzadas de api automation.
 
-Consultas básicas en postman en la ruta 
+Consultas básicas en postman en la ruta del reposotorio
 > 
-> deliverables/dummy-restapi-collection.postman_collection.json
+>  [POSTMAN](https://github.com/HerbertMG/Test-ApiRest-Automation/blob/main/src/test/resources/deliverables/dummy-restapi-collection.postman_collection.json)
 >
 ***
 
