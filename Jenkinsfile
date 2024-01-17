@@ -5,19 +5,19 @@ pipeline {
         gradle "Gradle-8"
     }
     stages{
-        stage('Clone repo'){
+        stage('Clone repo'){ // Clonamos el repositorio
             steps{
                 git branch: 'main', url: 'https://github.com/HerbertMG/Test-ApiRest-Automation.git'
             }
         }
 
-        stage('Build'){
+        stage('Build'){ // Descargamos las dependencias
             steps{
                 bat 'gradle build'
             }
         }
 
-        stage('Tests'){
+        stage('Tests'){ // Ejecutamos el runner del proyecto
             steps{
                 bat 'gradle test'
             }
