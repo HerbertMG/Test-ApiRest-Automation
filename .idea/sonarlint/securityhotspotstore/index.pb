@@ -26,3 +26,7 @@ A
 target/karate.log,a\0\a0c1eb5deceabdd10247320a3fd1024ffb337439
 ;
 jenkinsfile,b\d\bdf873728c4f67a7ac88d3daded6f23749b64d6d
+B
+Jenkinsfile.groovy,0\0\006a6d18d9635bbc82885cd69cffbfa60d69b97d
+G
+Jenkinsfile.jenkinsfile,5\7\578301d4a31f4a44fe1a690f3077913e05ddb4b2
