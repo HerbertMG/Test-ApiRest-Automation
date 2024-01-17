@@ -24,3 +24,5 @@ f
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 A
 target/karate.log,a\0\a0c1eb5deceabdd10247320a3fd1024ffb337439
+;
+jenkinsfile,b\d\bdf873728c4f67a7ac88d3daded6f23749b64d6d
