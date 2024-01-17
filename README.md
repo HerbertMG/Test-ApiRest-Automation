@@ -55,6 +55,12 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 
 ### 🚀 Pruebas de Integración continua
 
+* Se utiliza pipelines en **JENKIS** para la ejecucion automatizada de pruebas:
+
+<p align="center">
+  <img src="src/test/resources/evidencias/6_jenkins_pipeline.png"/>
+</p>
+
 ---
 
 ***
