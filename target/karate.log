@@ -7131,3 +7131,2888 @@ classpath:dummyapis/put/employee-put.feature:16
   "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
 }
  
+02:30:26.018 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:30:27.283 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:28.625 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:30:29.202 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:29.523 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:30:29.523 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:30:29.599 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:29.934 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:30:29.935 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:30:30.003 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:30.652 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 7149
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:30:30.708 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:31.294 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/put/employee-put.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 579, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod1-c'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/put/employee-put.feature:16
+02:30:31.369 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:32.154 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:30:32.158 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:30:32.879 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:31:22.665 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:31:23.780 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:24.686 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:31:25.195 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:25.518 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:31:25.518 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:31:25.598 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:25.917 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:31:25.918 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:31:25.998 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:26.643 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 897
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:31:26.696 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:27.321 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:31:27.367 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:28.227 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:31:28.230 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:31:28.997 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:46:30.581 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:46:31.666 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:32.787 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:46:33.317 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:33.700 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:46:33.700 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:46:33.777 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:34.223 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:46:34.224 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:46:34.291 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:35.194 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 2689
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:46:35.258 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:36.153 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:46:36.197 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:37.210 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:46:37.213 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:46:38.049 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:50:42.512 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:50:43.645 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:44.807 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:50:45.345 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:45.676 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:50:45.677 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:50:45.783 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:46.111 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:50:46.112 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:50:46.197 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:46.908 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/post/employee-post.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 662, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod89'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/post/employee-post.feature:16
+02:50:47.057 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:47.725 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:50:47.776 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:48.471 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:50:48.475 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:50:49.241 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:53:55.831 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:53:57.113 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:53:58.612 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:53:59.214 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:53:59.537 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:53:59.538 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:53:59.667 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:53:59.975 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:53:59.976 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:54:00.060 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:01.161 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 8104
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:54:01.261 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:02.234 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/put/employee-put.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 963, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod51'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/put/employee-put.feature:16
+02:54:02.291 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:03.305 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:54:03.309 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:04.421 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:54:21.180 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:54:22.301 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:23.572 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/delete/employee-delete.feature:14
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1062, url: https://dummy.restapiexample.com/api/v1/delete/24, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod1-c'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/delete/employee-delete.feature:14
+02:54:24.102 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:24.408 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:54:24.409 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:54:24.495 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:24.811 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:54:24.812 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:54:24.878 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:25.858 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/post/employee-post.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 940, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod51'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/post/employee-post.feature:16
+02:54:25.935 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:26.941 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:54:26.991 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:28.008 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:54:28.012 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:29.135 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:54:43.088 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:54:44.220 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:45.469 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/delete/employee-delete.feature:14
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1040, url: https://dummy.restapiexample.com/api/v1/delete/24, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod173'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/delete/employee-delete.feature:14
+02:54:46.005 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:46.325 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:54:46.326 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:54:46.423 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:46.711 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:54:46.711 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:54:46.781 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:47.743 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/post/employee-post.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 921, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod266-c'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/post/employee-post.feature:16
+02:54:47.836 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:48.737 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/put/employee-put.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 891, url: https://dummy.restapiexample.com/api/v1/update/21, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod1'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/put/employee-put.feature:16
+02:54:48.850 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:50.185 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:54:50.191 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:54:51.202 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:55:44.687 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705478144685
+02:55:44.706 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24 - ^\[TEST\-04\] Actualizar un registro de empleado en el sistema$
+02:55:45.552 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:55:47.207 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:55:47.707 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/dummyapis/put/employee-put.feature
+02:56:09.269 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705478169267
+02:56:09.300 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 22 - ^\[TEST\-05\] Eliminar un registro de empleado en el sistema$
+02:56:10.096 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:56:11.627 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:56:12.122 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/dummyapis/delete/employee-delete.feature
+02:56:29.380 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705478189378
+02:56:29.402 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24 - ^\[TEST\-03\] Crear un nuevo registro de empleado en el sistema$
+02:56:30.176 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:56:31.684 [main] ERROR com.intuit.karate - src/test/java/dummyapis/post/employee-post.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1055, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod239'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+src/test/java/dummyapis/post/employee-post.feature:16
+02:56:32.205 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/dummyapis/post/employee-post.feature
+02:56:48.055 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1705478208054
+02:56:48.080 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 24 - ^\[TEST\-03\] Crear un nuevo registro de empleado en el sistema$
+02:56:48.891 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:56:50.488 [main] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 6079
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:56:50.986 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/dummyapis/post/employee-post.feature
+02:57:05.956 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:57:07.056 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:08.445 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:57:08.964 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:09.289 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:57:09.290 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:57:09.385 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:09.692 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:57:09.692 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:57:09.757 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:10.813 [Test worker] ERROR com.intuit.karate - classpath:dummyapis/post/employee-post.feature:16
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 1022, url: https://dummy.restapiexample.com/api/v1/create, response: 
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod254-c'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.restapiexample.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body>
+</html>
+
+classpath:dummyapis/post/employee-post.feature:16
+02:57:10.882 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:11.933 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:57:11.979 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:13.172 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:57:13.174 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:57:14.366 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:58:24.996 [Test worker] INFO  com.intuit.karate.Runner - karate.env is: 'e2e'
+02:58:26.280 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:27.303 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": "24",
+  "message": "Successfully! Record has been deleted"
+}
+ 
+02:58:27.868 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:28.210 [Test worker] INFO  com.intuit.karate - [print] Successfully! All records has been fetched. 
+02:58:28.211 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 4,
+      "employee_name": "Cedric Kelly",
+      "employee_salary": 433060,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 5,
+      "employee_name": "Airi Satou",
+      "employee_salary": 162700,
+      "employee_age": 33,
+      "profile_image": ""
+    },
+    {
+      "id": 6,
+      "employee_name": "Brielle Williamson",
+      "employee_salary": 372000,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 7,
+      "employee_name": "Herrod Chandler",
+      "employee_salary": 137500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 8,
+      "employee_name": "Rhona Davidson",
+      "employee_salary": 327900,
+      "employee_age": 55,
+      "profile_image": ""
+    },
+    {
+      "id": 9,
+      "employee_name": "Colleen Hurst",
+      "employee_salary": 205500,
+      "employee_age": 39,
+      "profile_image": ""
+    },
+    {
+      "id": 10,
+      "employee_name": "Sonya Frost",
+      "employee_salary": 103600,
+      "employee_age": 23,
+      "profile_image": ""
+    },
+    {
+      "id": 11,
+      "employee_name": "Jena Gaines",
+      "employee_salary": 90560,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 12,
+      "employee_name": "Quinn Flynn",
+      "employee_salary": 342000,
+      "employee_age": 22,
+      "profile_image": ""
+    },
+    {
+      "id": 13,
+      "employee_name": "Charde Marshall",
+      "employee_salary": 470600,
+      "employee_age": 36,
+      "profile_image": ""
+    },
+    {
+      "id": 14,
+      "employee_name": "Haley Kennedy",
+      "employee_salary": 313500,
+      "employee_age": 43,
+      "profile_image": ""
+    },
+    {
+      "id": 15,
+      "employee_name": "Tatyana Fitzpatrick",
+      "employee_salary": 385750,
+      "employee_age": 19,
+      "profile_image": ""
+    },
+    {
+      "id": 16,
+      "employee_name": "Michael Silva",
+      "employee_salary": 198500,
+      "employee_age": 66,
+      "profile_image": ""
+    },
+    {
+      "id": 17,
+      "employee_name": "Paul Byrd",
+      "employee_salary": 725000,
+      "employee_age": 64,
+      "profile_image": ""
+    },
+    {
+      "id": 18,
+      "employee_name": "Gloria Little",
+      "employee_salary": 237500,
+      "employee_age": 59,
+      "profile_image": ""
+    },
+    {
+      "id": 19,
+      "employee_name": "Bradley Greer",
+      "employee_salary": 132000,
+      "employee_age": 41,
+      "profile_image": ""
+    },
+    {
+      "id": 20,
+      "employee_name": "Dai Rios",
+      "employee_salary": 217500,
+      "employee_age": 35,
+      "profile_image": ""
+    },
+    {
+      "id": 21,
+      "employee_name": "Jenette Caldwell",
+      "employee_salary": 345000,
+      "employee_age": 30,
+      "profile_image": ""
+    },
+    {
+      "id": 22,
+      "employee_name": "Yuri Berry",
+      "employee_salary": 675000,
+      "employee_age": 40,
+      "profile_image": ""
+    },
+    {
+      "id": 23,
+      "employee_name": "Caesar Vance",
+      "employee_salary": 106450,
+      "employee_age": 21,
+      "profile_image": ""
+    },
+    {
+      "id": 24,
+      "employee_name": "Doris Wilder",
+      "employee_salary": 85600,
+      "employee_age": 23,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+ 
+02:58:28.295 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:28.629 [Test worker] INFO  com.intuit.karate - [print] Successfully! Record has been fetched. 
+02:58:28.630 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "id": 3,
+    "employee_name": "Ashton Cox",
+    "employee_salary": 86000,
+    "employee_age": 66,
+    "profile_image": ""
+  },
+  "message": "Successfully! Record has been fetched."
+}
+ 
+02:58:28.711 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:29.365 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Juanito",
+    "salary": "3000",
+    "age": "40",
+    "id": 199
+  },
+  "message": "Successfully! Record has been added."
+}
+ 
+02:58:29.416 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:30.027 [Test worker] INFO  com.intuit.karate - [print] {
+  "status": "success",
+  "data": {
+    "name": "Maria",
+    "salary": "3000",
+    "age": "25"
+  },
+  "message": "Successfully! Record has been updated."
+}
+ 
+02:58:30.076 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:30.743 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 
+02:58:30.747 [Test worker] INFO  com.intuit.karate - karate.env system property was: e2e 
+02:58:31.395 [Test worker] INFO  com.intuit.karate - [print] {
+  "message": "Error Occured! Page Not found, contact rstapi2example@gmail.com"
+}
+ 

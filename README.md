@@ -31,7 +31,7 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 * [Cucumber](https://cucumber.io/) como software de testing BDD que permite elaborar pruebas a partir de AC.
 * [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) como lenguaje de
   programación.
-* [Gradle](https://maven.apache.org/download.cgi?.) como herramienta de compilación.
+* [Gradle](https://gradle.org/) como herramienta de compilación.
 
 ***
 
@@ -66,42 +66,43 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero obtener la lista completa de usuarios registrados en el sistema,
   para generar un reporte de empleados
-
-> - [x] [TEST-01] Obtener la lista de empleados registrados en el sistema
 >
+> - [x] [TEST-01] Obtener la lista de empleados registrados en el sistema
+
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero buscar un empleado por su ID,
   para visualizar su informacion personal
-
-> - [x] [TEST-02] Obtener un empleados registrado en el sistema
 >
+> - [x] [TEST-02] Obtener un empleados registrado en el sistema
+
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero registrar un nuevo empleado en el sistema,
   para registrar su informacion personal como sueldo y edad
-
-> - [x] [TEST-03] Crear un nuevo registro de empleado en el sistema
 >
+> - [x] [TEST-03] Crear un nuevo registro de empleado en el sistema
+
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero poder actualizar un registro de empleado por su ID,
   para actualizar informacion registrada con errores
-
-> - [x] [TEST-04] Actualizar un registro de empleado en el sistema
 >
+> - [x] [TEST-04] Actualizar un registro de empleado en el sistema
+
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero poder eliminar un registro de empleado del sistema,
   para realizar un mantenimiento de la base de datos
-
-> - [x] [TEST-05] Eliminar un registro de empleado en el sistema
 >
+> - [x] [TEST-05] Eliminar un registro de empleado en el sistema
+
+
 
 😢 Test diseñados para validar los escenarios **UNHappy Paths**
 ***
 > **✨ FEATURE**: Como usuario de "http://dummy.restapiexample.com/"
   quiero estar notificado si ocurrio un error,
   para validar el correcto funcionamiento de los servicios
-
+>
 > - [x] [TEST-06] Validar el metodo GET en el servicio de creacion de registro de usuario
-
+>
 > - [x] [TEST-07] Validar el metodo GET en el servicio de eliminar registro de usuario
 
 
@@ -110,26 +111,54 @@ Este proyecto utiliza los siguientes lenguajes y frameworks:
 ## ▶️ Ejecución del proyecto:
 
 1. Descarga el proyecto desde GitHub
-    * **Opción 1** (HTTPS): `https://github.com/HerbertMG/Test-ApiRest-Automation.git`
-    * **Opción 2:** Descárgalo como archivo Zip y extráelo
+
+* **Opción 1** (HTTPS): `https://github.com/HerbertMG/Test-ApiRest-Automation.git`
+* **Opción 2:** Descárgalo como archivo Zip y extráelo
 
 ***
+2. CD en la carpeta `RestApiAutomation`.
+3. Configurar Gradle
 
-2. Configurar Gradle
-    * Ejecute el siguiente comando en el terminal:`./gradlew build`.
+* Ejecute el siguiente comando en el terminal:`./gradlew build`.
+
+<p align="center">
+  <img src="src/test/resources/evidencias/1_gradlew_build.png"/>
+</p>
 
 ***
 
 4. Ejecutar las pruebas en el proyecto
 
-* Ir a las clase de la carpeta **TestSuiteRunner.java** `src\test\java\TestSuiteRunner.java` y ejecutar
+* Ir a la clase de la carpeta **TestSuiteRunner.java** `src/test/java/TestSuiteRunner.java` y ejecutar
   el Runner.
+
+<p align="center">
+  <img src="src/test/resources/evidencias/2_test_runner.png"/>
+</p>
 
 ***
 
 ## 📄 Generación de informes
 
 El informe al detalle con los pasos y resultados de las pruebas se registrará después de la ejecución en la ruta:
-`RestApiAutomation/target/karate-reports/karate-summary.html`.
+`RestApiAutomation/build/karate-reports/karate-summary.html`.
 
+<p align="center">
+  <img src="src/test/resources/evidencias/3_link_report.png"/>
+</p>
+
+* En la dirección del directorio `RestApiAutomation/biuld/karate-reports/`se ejecuta el reporte `karate-summary.html`.
+
+<p align="center">
+  <img src="src/test/resources/evidencias/4_report.png"/>
+</p>
+
+* Se ingresa en algun feature para observar el detalle.
+
+<p align="center">
+  <img src="src/test/resources/evidencias/5_report_details.png"/>
+</p>
+
+
+Este proyecto ha sido desarrollado por [Herbert Melendez](https://www.linkedin.com/in/herb-me-ga/)
 ***
